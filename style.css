@@ -1,0 +1,153 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.header{
+    min-height: 100vh;
+    background-image: url('img/neom-0rvKw0fDiHk-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.navbar{
+
+    width: 95%;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 0px;
+    position: relative;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    
+}
+.navbar .logo{
+    text-decoration:underline;
+    font-size: 45px;
+ font-weight: 500;
+ margin: 10px 14px;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.nav-menu ul li{
+    list-style: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.nav-menu ul li:hover{
+    background-color: rgb(21, 205, 205);
+    font-size: 25px;
+    transition: 0.2s ease;
+}
+
+
+
+.content-section{
+    
+    width: 70%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 60px;
+   
+    
+}
+.content-section h1{
+    color: brown;
+    font-size: 40px;
+}
+.content-section p{
+    
+    color: aliceblue;
+}
+.button{
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+   
+}
+.button a{
+    padding: 6px 19px;
+    background-color: rgb(205, 44, 19);
+    border-radius: 7px 7px;
+   
+}
+
+.button :hover{
+    background-color: rgb(21, 205, 205);
+    font-size: 22px;
+    transition: 0.2s ease;
+    border-radius: 8px;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 500px){
+    body {
+      font-size: 9px;
+    }
+    .header{
+        min-height: 145vh;
+    }
+    .navbar .logo{
+        font-size: 22px;
+     
+    }
+    
+   
+    .nav-menu ul li{
+        list-style: none;
+        padding: 3px 11px;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+    .nav-menu ul li a{
+    
+        font-size: 13px;
+    }
+
+.content-section{
+    
+    width: 66%;
+}
+
+.content-section h1{
+   
+    font-size: 32px;
+  }
+  .navbar{
+    background-color: rgb(220, 111, 28);
+    width: 100%;
+}
+.nav-menu ul li:hover{
+    background-color: rgb(193, 36, 8);
+}
+}
